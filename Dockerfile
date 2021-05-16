@@ -1,4 +1,4 @@
-FROM alpine:3.12.0
+FROM alpine:3.13.5
 ENV ADMIN_HOME=/home/admin
 RUN mkdir -p /home/admin
 RUN apk add bash
